@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script> 
+  
+  <title>Solar System</title>
+  
+ </head>
+
+<body>
+  <a-scene>
+    <a-sky src="apperance/nightsky.jpg">
+      <a-sphere id="sun"  position="11 2 -5 " scale="1 2 1" radius ="3" src="apperance/sun.jpeg" rotation ="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22234"></a-sphere>
+      <a-sphere id="mercury" position="5.3 1.25 -5" radius="0.5" src="apperance/mercury.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256" hover-scale></a-sphere>
+
+      <a-sphere id="venus" position="3.8 1.25 -5" radius="0.5" src="apperance//venus.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+      <a-sphere id="earth" position="2.5 1.25 -5" radius="0.5" src="apperance//earth.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+      
+      <a-sphere id="mars" position="1.3 1.25 -5" radius="0.5" src="apperance//mars.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+      <a-sphere id="jup" position="0.2 1.25 -5" radius="0.5" src="apperance//jupiter.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+      
+      <a-sphere id="saturn" position="-0.9 1.25 -5" radius="0.5" src="apperance//saturn.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+      <a-sphere id="uranus" position="-2.1 1.25 -5" radius="0.5" src="apperance//uranus.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+      <a-sphere id="neptune" position="-3.4 1.25 -5" radius="0.5" src="apperance//neptune.jpeg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 22256"></a-sphere>
+   </a-sky>
+  </a-scene>
+</body>
+</html>
